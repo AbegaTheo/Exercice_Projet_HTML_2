@@ -1,0 +1,99 @@
+/* Pour le Style Général */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+/* Pour le Titre Principal */
+h1 {
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Pour la Div container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Pour la Div information */
+.information {
+    margin-bottom: 20px;
+}
+
+/* Style du paragraphe de la Div information */
+.information p {
+    margin: 10px 0;
+}
+
+.information strong {
+    color: #ff6f61;
+}
+
+/* Pour le Style du Formulaire */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Pour le Style du Bouton Envoyer */
+button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+/* Style pour le lien de retour*/
+.lien_de_retour {
+    text-align: center;
+    margin-top: 20px;
+}
+.lien_de_retour a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #343a40;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.lien_de_retour a:hover {
+    background-color: red;
+}
+
+/* Pour le Pied de page */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
